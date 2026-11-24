@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Selective transfer from a multi-sequence MRI teacher to a model that segments brain tumours from a single FLAIR scan.">
+  <title>CFID | Shen Ye</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top"><div class="shell nav">
+    <a class="wordmark" href="./">Shen Ye</a>
+    <nav aria-label="Main navigation"><a href="./#research">Research</a><a href="./#about">About</a></nav>
+  </div></header>
+  <main id="main" class="shell"><article class="detail">
+    <a class="back" href="./#research">All research</a>
+    <p class="eyebrow">CFID <span aria-hidden="true">/</span> Medical image analysis</p>
+    <h1>Counterfactual-Informed Distillation for FLAIR-Only Brain Tumor Segmentation</h1>
+    <p class="author">Shen Ye</p>
+    <p class="detail-intro">Selective transfer from a multi-sequence MRI teacher to a model that segments brain tumours from a single FLAIR scan.</p>
+    <div class="detail-body">
+      <section><h2>Research question</h2><p>When does information from additional MRI sequences help a segmentation model that will only have FLAIR at inference?</p></section>
+      <section><h2>Approach</h2><p>CFID estimates the usefulness of additional sequences at individual voxels by comparing a teacher’s predictions with and without those sequences. It uses the resulting estimates to guide selective knowledge transfer to a FLAIR-only model.</p></section>
+      <section><h2>Evaluation</h2><p>The manuscript evaluates the method on the BraTS 2023 development set and compares it with a FLAIR-only source model.</p></section>
+    </div>
+  </article></main>
+  <footer class="shell footer"><a href="./">Shen Ye</a><span>Research portfolio</span></footer>
+</body>
+</html>
